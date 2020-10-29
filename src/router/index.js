@@ -8,6 +8,10 @@ Vue.use(VueRouter);
 
 const routes = [
 	{
+		path:'/',
+		redirect:'/index'
+	},
+	{
 		path:'/index',
 		component:Index,
 	},
