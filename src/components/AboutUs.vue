@@ -113,7 +113,7 @@ export default {
     width: 45%;
     margin: 0 auto;
     background-color: #ffffff;
-    height: 849px;
+    height: 853px;
 }
 #AU-content>h1{
     text-align: center;
