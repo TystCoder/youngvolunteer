@@ -1,4 +1,5 @@
 <template>
+    <el-main>
         <div id="AU-content">
             <h1>关于我们</h1>
             <el-divider></el-divider>
@@ -81,15 +82,102 @@
                             </el-col>
                         </el-row>
                     </el-tab-pane>
-                    <el-tab-pane label="组织部" name="fourth">组织部</el-tab-pane>
-                    <el-tab-pane label="支教部" name="fifth">支教部</el-tab-pane>
-                    <el-tab-pane label="宣传部" name="sixth">宣传部</el-tab-pane>
-                    <el-tab-pane label="公关文娱部" name="seventh">公关文娱部</el-tab-pane>
-                    <el-tab-pane label="会员信息部" name="eighth">会员信息部</el-tab-pane>
+                    <el-tab-pane label="组织部" name="fourth">
+                        <h3>组织部</h3>
+                        <el-row>
+                            <el-col :span="12">
+                                <div class="grid-content bg-purple">
+                                    <p style="text-indent: 2em;font-size:20px;">
+                                        对各部门的活动文件物资归档整理，管理办公室和办公室的物品，管理协会的会章，
+                                        为协会个活动布置会场以及为协会活动采购所需物品。注重培养同学们的市场调查能力，
+                                        人际交往与沟通能力。
+                                    </p>
+                                </div>
+                            </el-col>
+                            <el-col :span="12">
+                                <div class="grid-content bg-purple-light">
+                                    <el-image  :src="url" :fit="fits"></el-image>
+                                </div>
+                            </el-col>
+                        </el-row>
+                    </el-tab-pane>
+                    <el-tab-pane label="支教部" name="fifth">
+                        <h3>支教部</h3>
+                        <el-row>
+                            <el-col :span="12">
+                                <div class="grid-content bg-purple">
+                                    <p style="text-indent: 2em;font-size:20px;">
+                                        负责组织，策划义务支教的活动内容，组织协会志愿者为较为落后的小学进行义务支教。
+                                        在进行支教的过程中帮助贫困地区的孩子开拓视野，培养他们广泛的兴趣爱好。
+                                        注重培养同学们的演讲能力，提高同学们的组织能力与胆量。
+                                    </p>
+                                </div>
+                            </el-col>
+                            <el-col :span="12">
+                                <div class="grid-content bg-purple-light">
+                                    <el-image  :src="url" :fit="fits"></el-image>
+                                </div>
+                            </el-col>
+                        </el-row>
+                    </el-tab-pane>
+                    <el-tab-pane label="宣传部" name="sixth">
+                        <h3>宣传部</h3>
+                        <el-row>
+                            <el-col :span="12">
+                                <div class="grid-content bg-purple">
+                                    <p style="text-indent: 2em;font-size:20px;">
+                                        负责青协的活动宣传，注重形式是海报和通知，进行日常手工绘画，出手工海报，
+                                        通知的文字部分；日常活动的拍照；存储活动记录，为回顾展做准备。注重培养同学们的动手能力与组织能力。
+                                    </p>
+                                </div>
+                            </el-col>
+                            <el-col :span="12">
+                                <div class="grid-content bg-purple-light">
+                                    <el-image  :src="url" :fit="fits"></el-image>
+                                </div>
+                            </el-col>
+                        </el-row>
+                    </el-tab-pane>
+                    <el-tab-pane label="公关文娱部" name="seventh">
+                        <h3>公关文娱部</h3>
+                        <el-row>
+                            <el-col :span="12">
+                                <div class="grid-content bg-purple">
+                                    <p style="text-indent: 2em;font-size:20px;">
+                                        主要负责关于文化和艺术活动，培养主持人和礼仪小姐。要求具有文艺专长、
+                                        勇于展现、认真负责等优点。注重培养同学们的语言组织能力以及现场应变能力。
+                                    </p>
+                                </div>
+                            </el-col>
+                            <el-col :span="12">
+                                <div class="grid-content bg-purple-light">
+                                    <el-image  :src="url" :fit="fits"></el-image>
+                                </div>
+                            </el-col>
+                        </el-row>
+                    </el-tab-pane>
+                    <el-tab-pane label="会员信息部" name="eighth">
+                        <h3>会员信息部</h3>
+                        <el-row>
+                            <el-col :span="12">
+                                <div class="grid-content bg-purple">
+                                    <p style="text-indent: 2em;font-size:20px;">
+                                        主要负责青协会员信息如会员志愿服务活动的时间和内容等相关活动信息，
+                                        协助秘书处组织会员进行交流活动等。注重培养同学们活动组织能力与重要信息整理能力。
+                                    </p>
+                                </div>
+                            </el-col>
+                            <el-col :span="12">
+                                <div class="grid-content bg-purple-light">
+                                    <el-image  :src="url" :fit="fits"></el-image>
+                                </div>
+                            </el-col>
+                        </el-row>
+                    </el-tab-pane>
                 </el-tabs>
-                
             </div>
         </div>
+    </el-main>
 </template>
 <script>
 export default {
