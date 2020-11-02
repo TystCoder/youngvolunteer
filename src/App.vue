@@ -90,6 +90,6 @@ export default {
 	font-weight: bold;
 }
 .a-hover-color:hover{
-	color: #79bbff;
+	color:#409EFF;
 }
 </style>
