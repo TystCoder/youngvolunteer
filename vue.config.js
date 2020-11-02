@@ -3,7 +3,7 @@ module.exports = {
     config
       .plugin('html')
       .tap(args => {
-        args[0].title= '茂名职业技术学院青年志愿者官网'
+        args[0].title= '志愿者三下乡'
         return args
       })
   }
